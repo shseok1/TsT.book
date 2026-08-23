@@ -5,9 +5,16 @@ node_modules/
 .next/
 out/
 
+# OpenNext and Wrangler output
+.open-next/
+.wrangler/
+cloudflare-env.d.ts
+
 # Local environment files
 .env*
 !.env.example
+.dev.vars*
+!.dev.vars.example
 
 # Logs and local artifacts
 *.log
